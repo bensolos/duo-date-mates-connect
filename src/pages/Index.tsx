@@ -48,11 +48,6 @@ const Index = () => {
             DuoHombre makes double dating fun, safe, and authentic.
           </p>
           
-          <div className="flex justify-center mb-12">
-            <Button variant="gradient" size="lg" className="text-lg px-12 py-6">
-              Get Started
-            </Button>
-          </div>
 
           <div className="relative rounded-2xl overflow-hidden shadow-elegant max-w-3xl mx-auto">
             <img 
@@ -138,20 +133,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="container mx-auto px-4 py-16 text-center">
-        <div className="max-w-2xl mx-auto">
-          <h3 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Find Your Perfect Double Date?
-          </h3>
-          <p className="text-lg text-muted-foreground mb-8">
-            Join thousands of teams who are making authentic connections and having amazing experiences.
-          </p>
-          <Button variant="gradient" size="lg" className="text-lg px-12 py-6">
-            Start Your Adventure
-          </Button>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="bg-card py-12 border-t border-border">
