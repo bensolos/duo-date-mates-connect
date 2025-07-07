@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Heart, Users, MessageSquare, Star } from "lucide-react";
+import { Heart, Users, MessageSquare } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import heroImage from "@/assets/hero-image.jpg";
 
 const Index = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-gradient-subtle">
       {/* Header */}
@@ -20,7 +22,7 @@ const Index = () => {
           </div>
           <div className="flex items-center space-x-4">
             <Button variant="ghost">Sign In</Button>
-            <Button variant="gradient">Get Started</Button>
+            <Button variant="gradient" onClick={() => navigate("/create-team")}>Get Started</Button>
           </div>
         </nav>
       </header>
